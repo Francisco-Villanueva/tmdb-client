@@ -1,0 +1,167 @@
+.userProfile_main {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: $main;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.btn_back {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background-color: #fff;
+  color: $main;
+  border: none;
+  border-radius: 0 1em 1em 0;
+  height: 30px;
+  width: 30px;
+  transition: all 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+.btn_back:hover {
+  transform: scale(1.1);
+  width: 40px;
+}
+.userCard_container {
+  background-color: #000b22;
+  // color: $main;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  gap: 100px;
+  // margin: auto;
+  border-radius: 100px 30px 30px 100px;
+  // padding-right: 20px;
+}
+.user_card_info {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.user_data {
+  text-align: start;
+  // padding: 0 10px;
+  // border-right: 1px solid #fff;
+}
+.editBtn_container {
+  margin: auto;
+  // background-color: #000;
+  width: 100%;
+}
+.editUser_btn {
+  background-color: #fff;
+  color: $main;
+  border: none;
+  padding: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.editUser_btn:hover {
+  box-shadow: -4px 2px 1px #0000008d;
+}
+.user_card_btns {
+  display: flex;
+  flex-direction: column;
+}
+.playlists_favorites_section {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  // outline: 3px dashed rgba(254, 0, 0, 0.642);
+  // gap: 10%;
+}
+.child1 {
+  // outline: 1px solid #fff;
+  max-width: 70%;
+  flex: 2;
+}
+.child2 {
+  // outline: 1px solid #fff;
+
+  flex: 1;
+}
+.userProfiler_playlist_section {
+  // outline: 2px solid rgba($main, 1);
+  // // border-radius: 10px;
+  // max-width: 80%;
+  // // margin: auto;
+  // padding: 0 20px;
+  // height: 90vh;
+}
+
+.userProfiler_favorites_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.favoriteList_container {
+  background-color: #ededed;
+  color: $main;
+  min-height: 30vh;
+  width: 100%;
+  max-width: 90%;
+  padding: 0 20px;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+.form_newPlaylist {
+  display: flex;
+  // margin: auto;
+  gap: 5px;
+  // background-color: #fff;
+}
+.newPlaylis_input {
+  // position: absolute;
+  background-color: #fff;
+  color: $main;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 0 1em;
+  width: 100%;
+}
+
+.newPlaylis_input::placeholder {
+  font-weight: 200;
+  color: $main;
+  font-style: italic;
+}
+.newPlaylis_btn {
+  // position: absolute;
+  background-color: #fff;
+  color: $main;
+  border: none;
+  // padding: 10px;
+  // margin: 5px;
+  border-radius: 100px;
+  font-weight: 700;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.newPlaylis_btn:hover {
+  background-color: #50b145;
+  color: #fff;
+  transform: scale(1.1);
+  font-weight: 800;
+}

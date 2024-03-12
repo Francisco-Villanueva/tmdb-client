@@ -1,0 +1,21 @@
+.details_container {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.details_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+}
+.genres_container {
+  // margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}

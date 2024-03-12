@@ -1,0 +1,52 @@
+.navbar_main {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+  height: 50px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  gap: 17em;
+  align-items: center;
+  background: linear-gradient(#000, transparent);
+  transition: all 0.5s ease-in-out;
+  padding: 0 1em;
+  border-radius: 15px;
+  color: #fff;
+}
+.navbar_main h3 {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.navbar_main h3:hover {
+  transform: scale(1.1);
+  color: $main;
+}
+.scrolled {
+  background-color: $main;
+}
+.navbar_items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar_profile {
+  display: flex;
+  align-items: center;
+}
+.search_input {
+  background: unset;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.search_input:focus {
+  outline: none;
+}
+.search_btn {
+  background: unset;
+  border: none;
+}
